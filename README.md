@@ -24,9 +24,13 @@ Criar o sistema de rotas imaginando que você iniciará o desenvolvimento de um 
 Os rotas devem ser:
 
 [GET] /produtos - lista de todos os produtos
+
 [GET] /produtos/:id - lista de um único produto
+
 [POST] /produtos - inserir um produto
+
 [PUT] /produtos/:id - atualizar um produto
+
 [DELETE] /produtos - remover um produto
 
 Até o momento não fizemos a conexão com o banco de dados então deve-se utilizar um arquivo estático JSON para simular os dados.
